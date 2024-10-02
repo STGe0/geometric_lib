@@ -22,14 +22,14 @@
     python
 def area(a, b):
 ```
-> Пример вызова area (2, 4): 8
+> Пример вызова area(2, 4): 8
 ### Вычисление периметра
 *(a и b - стороны прямоугольника)*
 ```
     python
 def perimeter(a, b):
 ```
-> Пример вызова area (2, 4): 12
+> Пример вызова perimeter(2, 4): 12
 
 ## Треугольник
 
@@ -39,14 +39,14 @@ def perimeter(a, b):
     python
 def area(a, h):
 ```
-> Пример вызова area (2, 4): 8
+> Пример вызова area(2, 4): 8
 ### Вычисление периметра
 *(a, b, c - стороны треугольника)*
 ```
     python
 def perimeter(a, b, c):
 ```
-> Пример вызова area (2, 4, 6): 12
+> Пример вызова perimeter(2, 4, 6): 12
 
 ## Круг
 
@@ -56,14 +56,14 @@ def perimeter(a, b, c):
     python
 def area(r):
 ```
-> Пример вызова area (10): 314.15926535
+> Пример вызова area(10): 314.15926535
 ### Вычисление периметра
 *(r - радиус круга)*
 ```
     python
 def perimeter(r):
 ```
-> Пример вызова area (10): 62.83185307
+> Пример вызова perimeter(10): 62.83185307
 
 ## Квадрат
 
@@ -73,17 +73,17 @@ def perimeter(r):
     python
 def area(a):
 ```
-> Пример вызова area (2): 4
+> Пример вызова area(2): 4
 ### Вычисление периметра
 *(a - сторона квадрата)*
 ```
     python
 def perimeter(a):
 ```
-> Пример вызова area (2): 8
+> Пример вызова perimeter(2): 8
 
 # История изменений проекта
-- [Добавлен файл triangle.py, изменен фалй rectangle.py](https://github.com/STGe0/geometric_lib/commit/a15787c357bde4340f2492fd86ae342217f95d98)
+- [Добавлен файл triangle.py, изменен файл rectangle.py](https://github.com/STGe0/geometric_lib/commit/a15787c357bde4340f2492fd86ae342217f95d98)
 - [Добавлен файл rectangle.py](https://github.com/STGe0/geometric_lib/commit/36a7ed5076c73ca373bec64b330ac842ef180289)
 - [L-03: Docs added](https://github.com/STGe0/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)
 - [L-03: Circle and square added](https://github.com/STGe0/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)
