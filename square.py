@@ -8,8 +8,13 @@ def area(a):
         Возвращаемое значение:
             a * a: площадь квадрата
     '''
+    if (type(a) is not int):
+        raise TypeError("Аргумент должен быть типа int")
+    
+    if (a <= 0):
+        raise ValueError("Аргумент должен быть больше нуля")
+    
     return a * a
-
 
 def perimeter(a):
     '''
@@ -21,4 +26,10 @@ def perimeter(a):
         Возвращаемое значение:
             4 * a: периметр квадрата
     '''
+    if (type(a) is not int):
+        raise TypeError("Аргумент должен быть типа int")
+    
+    if (a <= 0):
+        raise ValueError("Аргумент должен быть больше нуля")
+    
     return 4 * a
